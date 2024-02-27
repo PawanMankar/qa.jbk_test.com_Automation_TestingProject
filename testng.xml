@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	  <class name="AutomationsTC.SignUpTestCases"/>
+	  <class name="AutomationsTC.LoginTC"/>
+	  <class name="AutomationsTC.LogoutTestCase"/>
+	  <class name="AutomationsTC.TakeQuizTC"/>
+      <class name="AutomationsTC.ViewAnswerTC"/>
+      <class name="AutomationsTC.TakeQuizAgainTC"/>
+      <class name="AutomationsTC.TestAttemptedTC"/>
+      <class name="AutomationsTC.YourGoodScoretTc"/>
+      <class name="AutomationsTC.FailedAttemptTC"/>
+      <class name="AutomationsTC.Profile_Update_TC"/> 
+      <class name="AutomationsTC.TimelineTC"/>
+      <class name="AutomationsTC.TotalTopicCoverdTC"/>
+      <class name="AutomationsTC.Profile_Update_TC"/>
+      <class name="AutomationsTC.PopupTC"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
